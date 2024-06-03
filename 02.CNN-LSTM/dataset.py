@@ -4,7 +4,7 @@ import zipfile
 
 from tqdm import tqdm
 
-storage_dir = 'D:/PyTorch/Dataset/COCO'
+storage_dir = 'D:/PyTorch/Dataset/COCO/'
 
 class DownloadProgressBar(tqdm):
     def update_to(self, b=1, bsize=1, tsize=None):
