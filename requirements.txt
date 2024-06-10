@@ -5,6 +5,7 @@ colorama==0.4.6
 contourpy==1.2.1
 cycler==0.12.1
 fonttools==4.52.4
+h5py==3.11.0
 idna==3.7
 importlib_resources==6.4.0
 joblib==1.4.2
@@ -23,9 +24,9 @@ regex==2024.5.15
 requests==2.32.2
 seaborn==0.13.2
 six==1.16.0
-torch==1.12.1+cu113
-torchaudio==0.12.1+cu113
-torchvision==0.13.1+cu113
+torch==1.7.1+cu110
+torchaudio==0.7.2
+torchvision==0.8.2+cu110
 tqdm==4.66.4
 typing_extensions==4.12.0
 tzdata==2024.1
