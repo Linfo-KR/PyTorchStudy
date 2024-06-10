@@ -6,8 +6,6 @@ from pycocotools.coco import COCO
 
 from dataset import *
 
-nltk.download('punkt')
-
 class Vocab(object):
     """
     Simple Vocabulary Wrapper.
@@ -63,6 +61,7 @@ def build_vocabulary(json, threshold):
 
 
 if __name__ == '__main__':
+    nltk.download('punkt')
     json_dir = storage_dir + 'annotations/captions_train2017.json'
     vocab = build_vocabulary(json=json_dir, threshold=4)
     vocab_dir = storage_dir + 'vocabulary.pkl'
